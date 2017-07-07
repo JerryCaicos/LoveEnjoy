@@ -23,7 +23,7 @@ import android.widget.ImageView;
 import com.mobile.love.enjoy.consume.R;
 
 /**
- * Created by chenaxing on 2017/2/20.
+ * Created by JerryCaicos on 2017/2/20.
  */
 
 public class CircleImageView extends ImageView

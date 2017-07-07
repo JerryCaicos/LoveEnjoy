@@ -5,7 +5,7 @@ import com.j256.ormlite.table.DatabaseTable;
 import com.mobile.love.enjoy.consume.service.TableConstants;
 
 /**
- * Created by chenaxing on 2017/1/17.
+ * Created by JerryCaicos on 2017/1/17.
  */
 
 @DatabaseTable(tableName = TableConstants.TABLECATEGORY)

@@ -16,10 +16,6 @@ import com.mobile.love.enjoy.consume.service.databean.CategoryBean;
 import java.text.DecimalFormat;
 import java.util.List;
 
-/**
- * Created by chenaxing on 2017/3/1.
- */
-
 public class EditCategoryActivity extends BaseActivity
 {
     public static final int MSG_CATEGORY_TYPE_EIDT = 10000;

@@ -5,7 +5,7 @@ import android.text.TextUtils;
 import android.util.Log;
 
 /**
- * Created by chenaxing on 2017/1/18.
+ * Created by JerryCaicos on 2017/1/18.
  */
 
 public class LogUtils

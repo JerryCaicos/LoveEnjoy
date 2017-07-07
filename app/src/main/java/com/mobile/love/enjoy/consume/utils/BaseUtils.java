@@ -1,7 +1,7 @@
 package com.mobile.love.enjoy.consume.utils;
 
 /**
- * Created by chenaxing on 2017/3/16.
+ * Created by JerryCaicos on 2017/3/16.
  */
 
 public class BaseUtils

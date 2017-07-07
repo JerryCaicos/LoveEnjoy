@@ -28,10 +28,6 @@ import com.mobile.love.enjoy.consume.utils.ToastUtils;
 
 import java.util.List;
 
-/**
- * Created by chenaxing on 2017/1/16.
- */
-
 public class HomeActivity extends BaseActivity
 {
     private ViewHolder viewHolder;

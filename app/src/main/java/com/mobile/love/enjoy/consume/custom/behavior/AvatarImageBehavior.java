@@ -10,7 +10,7 @@ import com.mobile.love.enjoy.consume.R;
 import com.mobile.love.enjoy.consume.custom.imageview.CircleImageView;
 
 /**
- * Created by chenaxing on 2017/2/20.
+ * Created by JerryCaicos on 2017/2/20.
  */
 @SuppressWarnings("unused")
 public class AvatarImageBehavior extends CoordinatorLayout.Behavior<CircleImageView>

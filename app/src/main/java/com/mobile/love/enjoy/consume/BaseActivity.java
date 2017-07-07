@@ -23,7 +23,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by chenaxing on 2017/1/17.
+ * Created by JerryCaicos on 2017/1/17.
  */
 
 public class BaseActivity extends AppCompatActivity

@@ -18,10 +18,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by chenaxing on 2017/2/21.
- */
-
 public class UserLoginActivity extends BaseActivity
 {
     private ViewHolder viewHolder;

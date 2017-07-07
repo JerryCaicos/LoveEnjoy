@@ -15,7 +15,7 @@ import com.mobile.love.enjoy.consume.utils.LogUtils;
 import java.sql.SQLException;
 
 /**
- * Created by chenaxing on 2017/1/16.
+ * Created by JerryCaicos on 2017/1/16.
  */
 
 public class DataBaseHelper<T, ID> extends OrmLiteSqliteOpenHelper

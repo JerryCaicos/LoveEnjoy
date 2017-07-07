@@ -18,7 +18,7 @@ import com.mobile.love.enjoy.consume.service.databean.CategoryBean;
 import java.util.List;
 
 /**
- * Created by chenaxing on 2017/3/3.
+ * Created by JerryCaicos on 2017/3/3.
  */
 
 public class SlideBaseAdapter extends BaseAdapter

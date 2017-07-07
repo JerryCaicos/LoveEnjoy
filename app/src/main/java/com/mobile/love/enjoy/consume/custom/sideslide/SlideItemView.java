@@ -12,7 +12,7 @@ import android.widget.OverScroller;
 import com.mobile.love.enjoy.consume.R;
 
 /**
- * Created by chenaxing on 2017/3/3.
+ * Created by JerryCaicos on 2017/3/3.
  */
 
 public class SlideItemView extends LinearLayout

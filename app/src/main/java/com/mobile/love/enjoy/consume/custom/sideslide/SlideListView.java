@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ListView;
 
 /**
- * Created by chenaxing on 2017/3/3.
+ * Created by JerryCaicos on 2017/3/3.
  */
 
 public class SlideListView extends ListView

@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by chenaxing on 2017/1/16.
+ * Created by JerryCaicos on 2017/1/16.
  */
 
 public class DBHelper<T>

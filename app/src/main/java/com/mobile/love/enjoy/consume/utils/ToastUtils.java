@@ -4,7 +4,7 @@ import com.mobile.love.enjoy.consume.BaseApplication;
 import com.mobile.love.enjoy.consume.custom.toast.BaseToast;
 
 /**
- * Created by chenaxing on 2017/1/18.
+ * Created by JerryCaicos on 2017/1/18.
  */
 
 public class ToastUtils

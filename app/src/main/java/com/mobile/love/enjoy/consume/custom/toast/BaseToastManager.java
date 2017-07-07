@@ -10,7 +10,7 @@ import java.util.Queue;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
- * Created by chenaxing on 2017/1/17.
+ * Created by JerryCaicos on 2017/1/17.
  */
 
 public class BaseToastManager extends Handler

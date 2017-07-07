@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.mobile.love.enjoy.consume.R;
 
 /**
- * Created by chenaxing on 2017/1/19.
+ * Created by JerryCaicos on 2017/1/19.
  */
 
 public class LoadingDialog extends BaseDialogFragment

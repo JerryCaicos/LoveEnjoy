@@ -21,10 +21,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by chenaxing on 2017/2/22.
- */
-
 public class UserRegisterActivity extends BaseActivity
 {
     public static final String KEY_REGISTER_ID = "register_id";
