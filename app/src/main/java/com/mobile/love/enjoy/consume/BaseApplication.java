@@ -2,15 +2,12 @@ package com.mobile.love.enjoy.consume;
 
 import android.app.Application;
 import android.content.Context;
-import android.support.multidex.MultiDex;
 
 import com.mobile.love.enjoy.consume.service.DBHelper;
 import com.mobile.love.enjoy.consume.service.databean.CategoryBean;
-import com.mobile.love.enjoy.consume.utils.BaseUtils;
 import com.mobile.love.enjoy.consume.utils.LogUtils;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -69,7 +66,6 @@ public class BaseApplication extends Application
     protected void attachBaseContext(Context base)
     {
         super.attachBaseContext(base);
-        MultiDex.install(this);
     }
 
     public void exit()
