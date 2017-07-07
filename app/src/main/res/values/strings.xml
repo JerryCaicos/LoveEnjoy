@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">LoveEnjoy</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="public_string_confirm">确&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;定</string>
+    <string name="public_string_cancel">取&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;消</string>
+
+    <string name="string_function_in_production">功能正在努力研发中，敬请期待！</string>
+
+    <string name="string_title_action_text_default">编辑</string>
+    <string name="string_title_action_text_register">注册</string>
+    <string name="string_public_confirm">确定</string>
+    <string name="string_public_cancel">取消</string>
+
+    <string name="string_user_name_hint">账&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号</string>
+    <string name="string_user_pwd_hint">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码</string>
+    <string name="string_user_nick_hint">昵&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;称</string>
+    <string name="string_user_sex_hint">性&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;别</string>
+    <string name="string_user_pwd_confirm_hint">确&#160;&#160;认&#160;&#160;密&#160;&#160;码</string>
+    <string name="string_user_desc_hint">个&#160;&#160;性&#160;&#160;签&#160;&#160;名</string>
+    <string name="string_user_login_hint">登&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;录</string>
+    <string name="string_user_register_hint">注&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;册</string>
+    <string name="string_user_login_hint_activity">欢迎回来</string>
+    <string name="string_user_name_input_hint">手机/邮箱/用户名</string>
+    <string name="string_user_nick_input_hint">请在这里输入昵称</string>
+    <string name="string_user_pwd_input_hint">请在这里输入密码</string>
+    <string name="string_user_pwd_input_confirm_hint">请在这里确认密码</string>
+    <string name="string_user_desc_input_hint">我的签名我做主！！！</string>
+
+    <string name="string_login_right_user_name">请输入用户名</string>
+    <string name="string_login_right_user_pwd">请输入密码</string>
+    <string name="string_login_login_success">登录成功，欢迎回来！</string>
+    <string name="string_login_login_failure">登录失败，请稍后重试</string>
+    <string name="string_login_new_user">还是新用户哦，马上去注册？</string>
+    <string name="string_register_user_sex_man">♂</string>
+    <string name="string_register_user_sex_woman">♀</string>
+
+    <string name="string_register_input_id">还没有输入账号哦</string>
+    <string name="string_register_input_name">给记几起个昵称吧</string>
+    <string name="string_register_input_pwd">没有密码怎么能行呢</string>
+    <string name="string_register_input_confirm_pwd">还需要再次确认下密码哦</string>
+    <string name="string_register_input_confirm_pwd_error">两次密码输入不一致哦</string>
+    <string name="string_register_input_desc">真的不来个个性签名吗？</string>
+    <string name="string_register_user_already_exist">该用户已经存在啦</string>
+    <string name="string_register_user_register_success">恭喜您注册成功！</string>
+    <string name="string_register_user_register_failure">对不起，注册失败了，请联系开发人员</string>
+    
+    <string name="string_category_type_happy">娱乐消费</string>
+    <string name="string_category_type_beauty">美妆消费</string>
+    <string name="string_category_type_dinner">宴会消费</string>
+    <string name="string_category_type_medical">医疗消费</string>
+    <string name="string_category_type_traffic">出行消费</string>
+    <string name="string_category_type_wear">穿衣消费</string>
+    <string name="string_category_type_usual_feast">日常餐饮消费</string>
+    <string name="string_category_type_usual_life">生活日用消费</string>
+    <string name="string_category_type_other">其他消费</string>
+
+
+    <string name="string_category_item_edit">编辑</string>
+    <string name="string_category_item_delete">删除</string>
+    <string name="string_category_activity_title">消费类别编辑</string>
+    <string name="string_category_activity_action_add">新增</string>
+    <string name="string_category_delete_cant_hint">默认分类不能删除哦</string>
+    <string name="string_category_delete_success_hint">分类删除成功</string>
+    <string name="string_category_delete_failure_hint">分类删除失败</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="person_intro">
+        孙骁骁，1985年4月22日出生于重庆渝中区，主持人、演员，毕业于中国传媒大学播音与主持专业04级本科班。
+        2007年进入湖南娱乐频道，主持娱乐节目《娱乐急先锋》。在《挑战麦克风》、《节节高声》、《快乐女声》等众多节目担任主持。
+        2010年与马天宇主演《宝贝妈妈宝贝女》。2011年与郑恺、魏巍主演《我的青春在延安》。
+        2013年10月4日，与沈怡、袁弘主演《真爱惹麻烦》，2013年9月28日与张翰、郑爽主演《胜女的代价2》 。
+        2015年5月11日，李响单膝跪地求婚孙骁骁，孙骁骁飙泪点头。
+        演绎经历:
+        2007年4月底，孙骁骁通过湖南电视台娱乐频道在中国传媒大学的招聘并往长沙进行复试。通过复试后孙骁骁开始主持娱乐资讯类节目《娱乐急先锋》。
+        2008年11月，孙骁骁接到了一个内部电话，这个电话来自湖南卫视演艺事业部，对方询问她是否愿意到湖南卫视做一档新节目。这档节目，就是《挑战麦克风》。《挑战麦克风》选中孙骁骁和马可、李好搭档，其实是看中了她的麦霸功底。
+        2009年3月2日，在湖南卫视正式开播的《节节高声》栏目由孙骁骁和曹颖搭档。2009年03月12日，湖南卫视《挑战麦克风》第二季启播暨节目模式外销签约仪式在湖南国际影视会展中心举办。
+        2011年6月，由孙骁骁、郑恺等主演的红色青春偶像剧《我的青春在延安》正式上映，献礼建党90周年。
+        2013年10月20日，由欢瑞世纪出品，明道工作室制作，孙骁骁、张翰、郑爽、乔任梁、江语晨等主演的电视剧《胜女的代价2》在湖南卫视第一周播剧场收官。2013年12月6日由林心如、袁弘、孙骁骁等主演的古装巨制《秀丽江山之长歌行》杀青。同年与黄宗泽、戚薇等主演《少年神探狄仁杰》。
+        2015年，主演《新济公活佛》中的单元剧《驭夫环》。</string>
+</resources>

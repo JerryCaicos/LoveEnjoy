@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_marginTop="80dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="24dip"
+        android:paddingRight="24dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/string_user_name_hint"
+            android:textColor="@color/pub_color_eight"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/view_login_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dip"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="@string/string_user_name_input_hint"
+            android:paddingLeft="12dip"
+            android:paddingRight="12dip"
+            android:textColor="@color/pub_color_eight"
+            android:textColorHint="@color/grey_secound"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:background="@color/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_marginTop="24dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="24dip"
+        android:paddingRight="24dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/string_user_pwd_hint"
+            android:textColor="@color/pub_color_eight"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/view_login_user_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dip"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="@string/string_user_pwd_input_hint"
+            android:paddingLeft="12dip"
+            android:paddingRight="12dip"
+            android:textColor="@color/pub_color_eight"
+            android:textColorHint="@color/grey_secound"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:background="@color/line"/>
+
+    <TextView
+        android:id="@+id/view_login_user_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:layout_marginTop="48dip"
+        android:clickable="true"
+        android:background="@drawable/drawable_pink_btn_bg"
+        android:gravity="center"
+        android:text="@string/string_user_login_hint"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</LinearLayout>

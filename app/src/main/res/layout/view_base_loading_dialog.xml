@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/loading_background"
+              android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/view_base_progress_bar"
+        style="@style/LoadingView"
+        android:layout_width="22dip"
+        android:layout_height="22dip"
+        android:fadingEdge="none"
+        android:indeterminateDuration="700"/>
+
+    <TextView
+        android:id="@+id/view_base_loading_view_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="努力加载中..."
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"/>
+
+</LinearLayout>

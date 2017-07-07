@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="order_category_type">
+        <item>@string/string_category_type_beauty</item>
+        <item>@string/string_category_type_dinner</item>
+        <item>@string/string_category_type_happy</item>
+        <item>@string/string_category_type_medical</item>
+        <item>@string/string_category_type_traffic</item>
+        <item>@string/string_category_type_wear</item>
+        <item>@string/string_category_type_usual_feast</item>
+        <item>@string/string_category_type_usual_life</item>
+        <item>@string/string_category_type_other</item>
+    </string-array>
+</resources>

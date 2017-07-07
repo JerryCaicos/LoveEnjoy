@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginTop="48dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/string_user_name_hint"
+                    android:textColor="@color/pub_color_eight"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/view_register_user_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dip"
+                    android:background="@null"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/string_user_name_input_hint"
+                    android:maxLines="1"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip"
+                    android:textColor="@color/pub_color_eight"
+                    android:textColorHint="@color/grey_secound"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="24dip"
+                android:layout_marginRight="24dip"
+                android:background="@color/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginTop="12dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/string_user_nick_hint"
+                    android:textColor="@color/pub_color_eight"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/view_register_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dip"
+                    android:background="@null"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/string_user_nick_input_hint"
+                    android:maxLines="1"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip"
+                    android:textColor="@color/pub_color_eight"
+                    android:textColorHint="@color/grey_secound"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="24dip"
+                android:layout_marginRight="24dip"
+                android:background="@color/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginTop="12dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/string_user_pwd_hint"
+                    android:textColor="@color/pub_color_eight"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/view_register_user_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dip"
+                    android:background="@null"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/string_user_pwd_input_hint"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip"
+                    android:textColor="@color/pub_color_eight"
+                    android:textColorHint="@color/grey_secound"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="24dip"
+                android:layout_marginRight="24dip"
+                android:background="@color/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginTop="12dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/string_user_pwd_confirm_hint"
+                    android:textColor="@color/pub_color_eight"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/view_register_user_pwd_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dip"
+                    android:background="@null"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/string_user_pwd_input_confirm_hint"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip"
+                    android:textColor="@color/pub_color_eight"
+                    android:textColorHint="@color/grey_secound"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="24dip"
+                android:layout_marginRight="24dip"
+                android:background="@color/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginTop="12dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/string_user_sex_hint"
+                    android:textColor="@color/pub_color_eight"
+                    android:textSize="16sp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="24dip">
+
+                    <CheckBox
+                        android:id="@+id/view_register_user_sex_man"
+                        android:layout_width="32dip"
+                        android:layout_height="32dip"
+                        android:background="@drawable/drawable_user_sex_radio_btn_bg"
+                        android:button="@null"
+                        android:checked="true"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="@string/string_register_user_sex_man"
+                        android:textColor="@color/white"
+                        android:textSize="28sp"/>
+
+                    <CheckBox
+                        android:id="@+id/view_register_user_sex_woman"
+                        android:layout_width="32dip"
+                        android:layout_height="32dip"
+                        android:layout_marginLeft="64dip"
+                        android:background="@drawable/drawable_user_sex_radio_btn_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="@string/string_register_user_sex_woman"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="28sp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="24dip"
+                android:layout_marginRight="24dip"
+                android:background="@color/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginTop="12dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="24dip"
+                android:paddingRight="24dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/string_user_desc_hint"
+                    android:textColor="@color/pub_color_eight"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/view_register_user_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dip"
+                    android:background="@null"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/string_user_desc_input_hint"
+                    android:maxLines="1"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip"
+                    android:textColor="@color/pub_color_eight"
+                    android:textColorHint="@color/grey_secound"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="24dip"
+                android:layout_marginRight="24dip"
+                android:background="@color/line"/>
+
+            <TextView
+                android:id="@+id/view_register_user_register_btn"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginLeft="24dip"
+                android:layout_marginRight="24dip"
+                android:layout_marginTop="48dip"
+                android:background="@drawable/drawable_pink_btn_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/string_user_register_hint"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
