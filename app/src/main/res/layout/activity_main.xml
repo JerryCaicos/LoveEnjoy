@@ -2,11 +2,9 @@
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context="com.mobile.love.enjoy.consume.MainActivity">
+    android:background="@color/white">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/layout_appbar"
@@ -17,7 +15,7 @@
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/layout_collapsing_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="470dip"
+            android:layout_height="360dip"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
@@ -25,14 +23,14 @@
             <ImageView
                 android:id="@+id/view_home_big_bg"
                 android:layout_width="match_parent"
-                android:layout_height="320dip"
+                android:layout_height="240dip"
                 android:src="@color/pub_title_text_mp_colour"
                 app:layout_collapseMode="parallax"/>
 
             <FrameLayout
                 android:id="@+id/layout_user_info"
                 android:layout_width="match_parent"
-                android:layout_height="150dip"
+                android:layout_height="120dip"
                 android:layout_gravity="bottom|center_horizontal"
                 android:background="@color/colorAccent"
                 app:layout_collapseMode="parallax">
@@ -296,7 +294,7 @@
                 android:text="我是游客啦"
                 android:textColor="@android:color/white"
                 android:textSize="20sp"
-                android:visibility="invisible"/>
+                android:visibility="gone"/>
         </LinearLayout>
     </android.support.v7.widget.Toolbar>
 
@@ -304,8 +302,9 @@
         android:id="@+id/view_user_header"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_width"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center_horizontal|top"
         android:src="@color/act_myebuy_color1"
+        android:layout_marginTop="150dip"
         app:civ_border_color="@color/white"
         app:civ_border_width="2dip"
         app:layout_behavior=".custom.behavior.AvatarImageBehavior"/>
