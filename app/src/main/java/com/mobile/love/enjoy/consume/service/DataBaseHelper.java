@@ -34,13 +34,15 @@ public class DataBaseHelper<T, ID> extends OrmLiteSqliteOpenHelper
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-    public synchronized static DataBaseHelper getInstance(Context context)
+    public static DataBaseHelper getInstance(Context context)
     {
         if(mDataBaseHelper == null)
         {
             synchronized(DataBaseHelper.class)
             {
-                mDataBaseHelper = new DataBaseHelper(context);
+                if(mDataBaseHelper == null){
+                    mDataBaseHelper = new DataBaseHelper(context);
+                }
             }
         }
         return mDataBaseHelper;
